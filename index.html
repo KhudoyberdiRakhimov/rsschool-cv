@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    .name {grid-area: name;}
+    .img {grid-area: img;}
+    .skills {grid-area: skills;}
+    .other {grid-area: other;}
+    .grid-container {
+      display: grid;
+      grid-template-areas: 
+        'name name img'
+        'skills other other';
+      grid-gap: 10px;
+      padding: 10px;
+    }
+  </style>
+  <title>CV</title>
+</head>
+<body>
+  <div style="max-width: 1024px;">
+    <div class="grid-container">
+      <div class="name">
+        <h1>Khudoyberdi Rakhimov</h1>
+        <ul>
+          <li>xrahimov085@gmail.com</li>
+          <li>@xrahimov085</li>
+        </ul>
+        <h2>About myself:</h2>
+        <p>I am a passionate learner and very curious about improving my knowledge. The main reason why I chose this field is
+          creating new stuff that is useful for a lot people. I am always ready to overcome the challanges on my way to success.
+        </p>
+      </div>
+      <div class="img">
+        <img width="160px" height="220px"
+          src="https://mymodernmet.com/wp/wp-content/uploads/2017/08/jim-carrey-portraits-vince-low-3.jpg" />
+      </div>
+      <div class="skills">
+        <h2>Skills:</h2>
+        <ul>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+          <li>Node.js</li>
+          <li>ReactJS</li>
+          <li>MongoDB</li>
+          <li>Material-ui</li>
+          <li>Ant-Design</li>
+          <li>Git</li>
+          <li>REST API</li>
+        </ul>
+      </div>
+      <div class="other">
+        <h2>Code examples:</h2>
+        <ul>
+          <li><a href="https://github.com/KhudoyberdiRakhimov/dukon_app">https://github.com/KhudoyberdiRakhimov/dukon_app</a>
+          </li>
+          <li><a
+              href="https://github.com/KhudoyberdiRakhimov/food_delivery">https://github.com/KhudoyberdiRakhimov/food_delivery</a>
+          </li>
+          <li><a href="https://github.com/KhudoyberdiRakhimov/yourStory">https://github.com/KhudoyberdiRakhimov/yourStory</a>
+          </li>
+        </ul>
+        <h2>Experience:</h2>
+        <ul>
+          <li><a href="https://dukon.herokuapp.com/">E-commerce application</a></li>
+          <li><a href="https://hikoya.herokuapp.com/">Blog</a></li>
+        </ul>
+      </div>
+    </div>
+    <h2>Education:</h2>
+    <p>I have <b>Responsive Web Design Certification</b> and <b>JavaScript Algorithms and Data Structures
+        Certification</b>
+      from <b><i>freecodecamp.org</i></b></p>
+    <h2>English:</h2>
+    <p>I have Band 7.0/C1 IELTS Certificate</p>
+  </div>
+</body>
+</html>
