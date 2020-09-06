@@ -1,6 +1,6 @@
 ## Khudoyberdi Rakhimov
 * xrahimov085@gmail.com 
-* Telegram: _@xrahimov
+* Telegram: @xrahimov
 ### About myself:
 I am a passionate learner and very curious about improving my knowledge. The main reason why I chose this field is creating new stuff that is useful for a lot people. I am always ready to overcome the challanges on my way to success.
 ### Skills:
